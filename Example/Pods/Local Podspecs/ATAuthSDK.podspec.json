@@ -1,0 +1,34 @@
+{
+  "name": "ATAuthSDK",
+  "version": "2.12.0",
+  "summary": "阿里云号码认证SDK",
+  "homepage": "https://github.com/CaiChenghan/ATAuthSDK_D",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "蔡成汉": "1178752402@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/CaiChenghan/ATAuthSDK_D.git",
+    "tag": "2.12.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "pod_target_xcconfig": {
+    "VALID_ARCHS": "x86_64 armv7 arm64"
+  },
+  "resources": [
+    "ATAuthSDK_D/ATAuthSDK_D/ATAuthSDK_D.framework/ATAuthSDK.bundle",
+    "ATAuthSDK_D/ATAuthSDK_D/ATAuthSDK_D.framework.dSYM",
+    "ATAuthSDK_D/AliComCrash/AliComCrash.framework.dSYM"
+  ],
+  "vendored_frameworks": [
+    "ATAuthSDK_D/ATAuthSDK_D/ATAuthSDK_D.framework",
+    "ATAuthSDK_D/YTXMonitor.framework",
+    "ATAuthSDK_D/YTXOperators.framework",
+    "ATAuthSDK_D/AliComCrash/AliComCrash.framework"
+  ]
+}
