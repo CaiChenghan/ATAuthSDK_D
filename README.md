@@ -1,5 +1,6 @@
 # ATAuthSDK_D
 [阿里云号码验证SDK动态库（crash版）](https://help.aliyun.com/product/75010.html?spm=a2c4g.11174283.6.540.79f229d3qHCmVk)
+
 静态库版本[ATAuthSDK](https://github.com/CaiChenghan/ATAuthSDK)
 
 ## 版本说明
